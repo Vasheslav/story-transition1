@@ -1,18 +1,24 @@
-// // utils
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import './utils/vars';
+@import './utils/fonts';
+@import './common/base';
+@import './utils/visually-hidden';
 
-@import './utils/variables';
-@import './utils/placeholders';
+@import './common/a-header';
+@import './common/containers';
+@import './common/e-support';
 
-// // base
+@import './layouts/home/b-side-bar';
+@import './layouts/home/c-categories';
+@import './layouts/home/d-main';
 
-@import './base/common';
-@import './base/container';
-@import './base/reset';
+@import './layouts/shopping-list/c-side-bar';
+@import './layouts/shopping-list/d-main';
 
-// // components
+@import './layouts/f-modal';
+@import './layouts/g-auth-modal';
 
-// @import "./components/image-swiper";
-// @import "./components/description";
-// @import "./components/reviews";
-// @import "./components/stories";
-// @import "./components/partnership";
+@import './common/h-dark-theme';
+@import './common/scroll-up';
+
+@import './common/spiner';
